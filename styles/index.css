@@ -157,7 +157,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(assets/Rectangle4.svg), lightgray 50% / cover no-repeat;
+
 }
 
 .hero__card__two__date {
@@ -210,6 +210,26 @@ header {
     height: 387px;
     flex-shrink: 0;
     border-radius: 30px;
-    
-}
 
+}
+.hero__card__two__arrow_one{
+    position: absolute;
+    margin-right: 600px;
+}
+.hero__card__two__arrow_one>img{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    size: 10px;
+}
+.hero__card__two__arrow_two{
+    position: absolute;
+    margin-right: 0px;
+}
+.hero__card__two__arrow_two>img{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    size: 10px;
+    margin-left: 575px;
+}
