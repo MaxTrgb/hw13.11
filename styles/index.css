@@ -157,7 +157,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    position: relative;
 }
 
 .hero__card__two__date {
@@ -171,6 +171,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: -70px;
 }
 
 .hero__card__two__date>h4 {
@@ -186,6 +187,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 0px;
+    
 }
 
 .hero__card__two>h5 {
@@ -199,37 +202,44 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 18%;
-    margin-right: 30px;
+    margin-top: 48%;
+    margin-right: 100px;
 }
 
-
-.hero__card__two>img {
-    margin: 0%;
-    width: 651px;
-    height: 387px;
-    flex-shrink: 0;
-    border-radius: 30px;
-
-}
-.hero__card__two__arrow_one{
+.hero__card__two__arrow_one {
     position: absolute;
-    margin-right: 600px;
+    margin-right: 100%;
+    margin-top: -20px;
 }
-.hero__card__two__arrow_one>img{
+
+.hero__card__two__arrow_one>img {
     width: 64px;
     height: 64px;
     flex-shrink: 0;
     size: 10px;
+    
 }
-.hero__card__two__arrow_two{
+
+.hero__card__two__arrow_two {
     position: absolute;
     margin-right: 0px;
+    margin-top: -20px;
 }
-.hero__card__two__arrow_two>img{
+
+.hero__card__two__arrow_two>img {
     width: 64px;
     height: 64px;
     flex-shrink: 0;
     size: 10px;
-    margin-left: 575px;
+    margin-left: 500px;
+}
+
+.firstPhoto {
+    position: absolute;
+    margin-top: 178px;
+    margin-right: 65px;
+
+}
+.hero__card__two>img{
+    margin-right: 10%;
 }
